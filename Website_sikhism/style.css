@@ -1,0 +1,73 @@
+body {
+    background-image: url('images/sikhi/Golden-wheat-field-in-a-beautiful-summer-day_1920x1080.jpg');
+}
+#container
+{
+  
+
+
+}
+
+/* HEADER section ========================== */
+
+
+
+
+/* NAVIGATION section ====================== */
+
+
+/* MAIN ========================================= */
+
+.main
+{
+    float: none;
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    solid;      font-family: Arial;
+    font-size: 16px;
+    overflow: auto ;
+    border-bottom-right-radius:1em;
+    
+}
+
+/* Mini content panel =========================== */
+
+#box {
+background-color:khaki;
+
+
+}
+
+.test {
+
+display: block;
+text-align: center;
+
+}
+
+/* Format text on your content page =========================== */
+ 
+
+
+.contentText    {
+    margin:10px;
+}
+
+#form {
+ 
+color:khaki;
+display: table;
+padding: 15px;
+background-color: #4e5a65;
+border: solid 2px black;
+ 
+}
+ 
+
+
+
+#button1 {
+    margin-left: 10px;
+}
+

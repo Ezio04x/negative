@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+ 
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head runat="server">
+    <meta charset="utf-8"/>       
+        <meta name="viewport" content="width=device-width, initial-state=1"/>        
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />        
+        <script src="bootstrap/js/jquery-1.12.3.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="jQuery_Javascript/JavaScript.js"></script>
+        <link type="text/css" rel="stylesheet" href="style.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title> history website </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+ 
+<body>
+<div id="container">
+    
+            <div class="navbar">
+
+                <div class="navbar-inner">
+   
+    <ul class="nav navbar-nav">
+ <li><a href="/Default.aspx"> Home</a> </li>
+ <li><a href="webpages/Misc/SignUp.aspx"> Sign Up</a></li>       
+ <li><a href="/webpages/Misc/login.aspx"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+ <li><a href="/webpages/Misc/contact.aspx"> Contact Us</a></li> 
+              
+   </ul>
+                    </div>
+                </div>
+      
+      
+                 
+     
+ 
+ 
+<div class="main">
+    <asp:ContentPlaceHolder id="MainContent1" runat="server">
+ 
+ 
+ 
+    </asp:ContentPlaceHolder>
+ 
+ 
+  </div>
+        
+       
+</div>
+     
+</body>
+</html>
